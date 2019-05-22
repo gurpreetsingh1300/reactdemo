@@ -1,4 +1,27 @@
 import React from 'react';
+import createReactClass from 'create-react-class';
+
+class AppComp extends React.Component 
+{ 
+  render() 
+  {
+    return React.createElement("h1", {}, "Hello World!!!");
+  }
+}
+export default  AppComp;
+
+/*
+var AppComp = createReactClass({
+  render: function() {
+                      return React.createElement("h1", {}, "Hello World!!!");
+                     }
+});
+
+export default  AppComp;
+*/
+
+/*
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,3 +47,4 @@ function App() {
 }
 
 export default App;
+*/
