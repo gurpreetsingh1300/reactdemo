@@ -1,0 +1,24 @@
+Steps to follow 
+
+1. Install latest node.js from web
+
+2. To check version , open cmd and enter node -v
+
+3. To create new react project 
+run the following command -
+
+npx create-react-app reactdemo
+
+where reactdemo is the name of the folder you want to have.
+
+Important note -
+
+If cacche error or package.json not found error comes ,
+due to space in username
+
+run the following command -
+
+npm config set cache "C:\Users\GURPREET~1SINGH\AppData\Roaming\npm-cache" --global
+
+here we have replaced space in username with ~1
+
