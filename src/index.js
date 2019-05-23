@@ -4,7 +4,7 @@ import './index.css';
 //import AppComp from './App';
 //import AppComp from './App.jsx';
 //import Product from './casestudy.jsx'
-import Timer from './timer.jsx';
+import Timer from './Components/timer.jsx';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Timer />, document.getElementById('root'));

@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from './casestudy';
+import Product from './Components/casestudy';
 
 /*class AppComp extends React.Component {
     
