@@ -1,14 +1,14 @@
 import React from 'react';
 import Product from './casestudy';
 
-class AppComp extends React.Component {
+/*class AppComp extends React.Component {
     
     render()
     {
         var names=['Ember', 'BackboneJS', 'ReactJS', 'Jasmine'];
         return <div>Hello, { names } </div>
        }
-    /*{
+    {
              var names=['Ember', 'BackboneJS', 'ReactJS', 'Jasmine'];
              let divStyle = {
                 color: 'red',
@@ -17,8 +17,8 @@ class AppComp extends React.Component {
                  <div style = {divStyle}>Hello, { names }</div> 
                  
              </div>
-            }*/
-}
+            }
+}*/
 
 
 /*class AppComp extends React.Component {
@@ -41,7 +41,7 @@ class AppComp extends React.Component {
 } */
 
 
-/*class AppComp extends React.Component 
+class AppComp extends React.Component 
 {
     render(){
                return(<div>
@@ -55,6 +55,6 @@ class AppComp extends React.Component {
                                                           
                     </div>);
             }
-}*/
+}
 
 export default AppComp

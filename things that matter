@@ -1,0 +1,11 @@
+1.
+we may also require to use JavaScript expressions in React element
+
+JavaScript expressions to be evaluated should be wrapped within curly braces as follows:
+
+         <h1> { Expression to be evaluated } </h1>
+		 
+Content which has to be displayed as is will be written in double quotes, wrapped within curly braces as follows:
+
+        <h1> {" Content to be displayed "} </h1>
+
