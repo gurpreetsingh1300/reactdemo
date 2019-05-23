@@ -22,3 +22,11 @@ npm config set cache "C:\Users\GURPREET~1SINGH\AppData\Roaming\npm-cache" --glob
 
 here we have replaced space in username with ~1
 
+Render component 
+
+If we are using createReactClass method which accepts an object as argument.  
+we need to follow this -
+
+Install create-react-class package by running the following command:
+
+npm install create-react-class --save

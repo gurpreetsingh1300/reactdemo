@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppComp from './App';
+//import AppComp from './App';
+import AppComp from './App.jsx';
+//import Product from './casestudy.jsx'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<AppComp />, document.getElementById('root'));

@@ -1,6 +1,23 @@
 import React from 'react';
-import createReactClass from 'create-react-class';
+//import createReactClass from 'create-react-class';
 
+
+class AppComp extends React.Component{
+  render(){
+           return (<form>
+                         <h2>Login</h2>
+                         <input type="text" placeholder="Name" />
+                         <br/><br/>
+                         <input type="password" placeholder="password" />
+                         <br/><br/>
+                         <input type="submit" nvalue="log" />                 
+                  </form>);
+           }
+};
+
+export default AppComp;
+
+/*
 class AppComp extends React.Component 
 { 
   render() 
@@ -9,6 +26,7 @@ class AppComp extends React.Component
   }
 }
 export default  AppComp;
+*/
 
 /*
 var AppComp = createReactClass({
