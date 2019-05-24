@@ -16,7 +16,22 @@ import React from 'react';
                           return (<div>
                                        <button onClick = {this.handleClick}> Start timer </button>
                                        <h2> Seconds Elapsed: {this.state.secondsElapsed} </h2>
+                                       <Resultant new2 = {this.state.secondsElapsed} />
                                   </div>);
                           }
     }
+// creating statelss/functional components
+    function Resultant(props){
+        return (
+                <h3> New Result: {props.new2} </h3>
+               )
+        }
+
+   /* class Resultant extends React.Component{
+        render(){
+                 return (<div>
+                              <h3> Seconds Elapsed: {this.props.new2} </h3>
+                         </div>);
+                }
+    } */
     export default Timer;

@@ -1,0 +1,43 @@
+1.
+we may also require to use JavaScript expressions in React element
+
+JavaScript expressions to be evaluated should be wrapped within curly braces as follows:
+
+         <h1> { Expression to be evaluated } </h1>
+		 
+Content which has to be displayed as is will be written in double quotes, wrapped within curly braces as follows:
+
+        <h1> {" Content to be displayed "} </h1>
+
+2.
+a.State is an initial value set for a component, which is used for interactivity.
+
+
+
+    States are mutable and only used on top level component
+
+    They are reserved only for interactivity and component's event handlers may change to trigger a UI update
+
+    State will be set with a default value when component mounts and will mutate in time based on user events generated
+	
+b. Props allows you to pass data from parent component to the child component.
+
+Props are immutable - a component cannot change its props however it is responsible for putting together.
+
+
+3. Stateless/Functional Component VS Stateful/Class Component
+
+a. Stateless/Functional Component:
+
+    It contains only props
+
+    It is used to render data of a component
+
+
+b. Stateful/Class Component :
+
+    It has both props and states
+
+    It encapsulates interaction logic as well as renders data
+	
+c. Tip: While developing an app, create several stateless components that renders data, and have a stateful component above them in the hierarchy that passes its state to its children via props.

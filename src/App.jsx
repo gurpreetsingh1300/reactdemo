@@ -1,6 +1,17 @@
 import React from 'react';
 import Product from './Components/casestudy';
 
+var count=1;
+class AppComp extends React.Component {
+              render() {
+                        React.Children.map( this.props.children, function() { 
+                              console.log ('child', count++); } );
+                        return (<ul>
+                                    { this.props.children }
+                                </ul>)
+                       }
+};
+
 /*class AppComp extends React.Component {
     
     render()
@@ -41,7 +52,7 @@ import Product from './Components/casestudy';
 } */
 
 
-class AppComp extends React.Component 
+/* class AppComp extends React.Component 
 {
     render(){
                return(<div>
@@ -56,5 +67,8 @@ class AppComp extends React.Component
                     </div>);
             }
 }
+*/
+
+
 
 export default AppComp
